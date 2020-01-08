@@ -1,0 +1,423 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nogutter {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 100%;
+    background-color: rgba(52, 38, 40, 0.8);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease-out;
+}
+
+.cont:hover .overlay {
+    width: 100%;
+    left: 0;
+}
+
+.text {
+    color:#fff;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+/*------------testimonial part End------------*/
+/*------------location Part Start------------*/
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+/*------------main menu start------------*/
+.menu {
+    height: auto;
+    background-color: #fff;
+}
+
+.logo {
+}
+.navbar-nav > li{
+    display: block;
+}
+.navbar-nav > li > a {
+    font-stretch: condensed;
+    padding: 15px 26px;
+    margin: 10px 0px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 39px;
+    color: #000 !important;
+}
+
+.navbar-nav > li > a:hover {
+    color: #ad2118 !important;
+}
+
+.navbar-default {
+    border-radius: 0px;
+    box-shadow: none;
+    border: none;
+    background: none;
+}
+
+/*Search Button Start*/
+
+/*Search Button End*/
+
+/*------------main menu end------------*/
+
+/*------------banner start------------*/
+.banner_image_1 > img {
+
+    width: 100%;
+    position: relative;
+    height: 500px;
+}
+
+.banner_elements_1 {
+    color: #fff;
+    position: absolute;
+    left: 24%;
+    top: 30%;
+}
+.banner_elements_1>img{
+    height: 14px;
+}
+.banner_elements_1> h4{
+    font-stretch: condensed;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.banner_elements_1> h3{
+    font-stretch: condensed;
+    font-size: 55px;
+    font-weight: 700;
+    font-weight: bold;
+}
+
+.banner_elements_1> h5{ 
+    font-stretch: condensed;   
+    font-weight: bold;
+    font-size: 32px;
+}
+.banner_elements_1>p{ 
+    font-stretch: condensed;   
+    font-size: 20px;
+}
+
+.banner_elements_2{
+    position: absolute;
+    top: 173%;
+    left: 30%;
+    z-index: 9;
+}
+.banner_elements_2> h3{
+   font-stretch: condensed;
+    font-size: 76px;
+    font-weight: 700;
+    color: #286090;
+    font-weight: bold;
+}
+
+.banner_elements_2> h5{ 
+   font-stretch: condensed;
+    font-size: 40px;
+    font-weight: bold;
+    color: #286090;
+
+}
+.banner_elements_2> p{ 
+   font-stretch: condensed;
+    font-size: 19px;
+    color:#286090;
+}
+/*------------banner end------------*/
+/*service start*/
+.service{
+    background: linear-gradient(to top,green,#cec2bd);
+    min-height: 100px;
+}
+.service_head{
+        margin-top: 80px;
+    margin-bottom: 50px;
+}
+.service_head>img{
+    height: 25px;
+}
+
+.service_head>h3{
+    font-stretch: condensed;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+}
+.service_head>h4{
+    font-stretch: condensed;
+    font-size: 19px;
+    color: #fff;
+}
+.service_head>h1{
+    font-stretch: condensed;
+     font-size: 55px;
+    color: white;
+    font-weight: bold;
+}
+.firm>h2{
+     font-stretch: condensed;
+   color: white;
+    font-weight: bold;
+}
+
+.firm>p{
+     font-stretch: condensed;
+      color: white;
+     font-size: 17px;
+}
+.partnership>p{
+     font-stretch: condensed;
+     color: white;
+     font-size: 17px;
+}
+.soil>p{
+     font-stretch: condensed;
+     color: white;
+     font-size: 17px;
+}
+.animal>h2{
+     font-stretch: condensed;
+   color: white;
+    font-weight: bold;
+}
+.animal>p{
+     font-stretch: condensed;
+      color: white;
+     font-size: 17px;
+}
+.space>p{
+     font-stretch: condensed;
+      color: white;
+     font-size: 17px;
+}
+.livestock>p{
+     font-stretch: condensed;
+      color: white;
+     font-size: 17px;
+}
+.divider{
+    margin: 0 auto;
+    display: block;
+    background-color: #fff;
+    height: 200px;
+    width: 2px;
+}
+.partnership> img{
+    height: 200px;
+}
+.soil> img{
+    height: 200px;
+}
+.space> img{
+    height: 200px;
+}
+.livestock > img{
+    height: 200px;
+}
+.environment{
+    margin-bottom: 50px;
+}
+.environment>h1{
+    font-stretch: condensed;
+    color: white;
+    font-weight: bold;
+}
+.environment>h4{
+    font-stretch: condensed;
+    color: white;
+     font-size: 20px;
+
+}
+
+/*service end*/
+/*cultivate*/
+.cultivate{background-color: #fff;
+    min-height: 100px;
+}
+.cultivate_head{
+       margin-top: 55px;
+    margin-bottom: 54px;
+}
+
+.cultivate_head>img{
+    margin-top: 10px;
+    height: 18px;
+}
+.cultivate_head>h3{
+    font-stretch: condensed;
+    font-size: 24px;
+    font-weight: bold;
+}
+.cultivate_head>h1{
+       font-stretch: condensed;
+    font-size: 61px;
+    font-weight: bold;
+}
+.cultivate_head>h4{
+       font-stretch: condensed;
+    font-size: 20px;
+}
+/*cultivate*/
+
+
+/*------------testimonial part Start------------*/
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 100%;
+    background-color: rgba(52, 38, 40, 0.8);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease-out;
+}
+
+.cont:hover .overlay {
+    width: 100%;
+    left: 0;
+}
+
+.text {
+    color:#fff;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+/*------------testimonial part End------------*/
+/*------------location Part Start------------*/
+.location{
+background-color: #786259;
+    color: #fff;
+    height: 150px;
+}
+.loc{
+    margin-top: 25px;
+}
+.loc>img{
+    height: 100px;
+    float: left;
+}
+.loc>h2{
+    font-stretch: condensed;
+    float: left;
+    margin: 38px;
+}
+input[type=text]{
+    border: None;
+    background-color: #786259;
+    width: 30%;
+    margin: 22px;
+}
+.lo_fm{
+    color: #fff;
+}
+/*------------location Part Start------------*/
+/*------------Footer Menu Part Start------------*/
+.footer{
+    background-color: #1b0800;
+}
+.footer_menu_link>h4{
+    color: #fff;
+    float: left;
+    font-stretch: condensed;
+    font-size: 30px;
+    font-weight: 600;
+    
+}
+
+.footer_menu_link>h3{
+    margin-left: 50px;
+    margin-top: 10px;
+    float: left;
+    color: #fff;
+    font-stretch: condensed;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.footer_menu_link>h4:hover,.footer_menu_link>h3:hover{
+    cursor: pointer;
+    border-bottom: 2px solid #fff;
+}
+
+.about,.contact,.download{
+    color: #fff;
+}
+
+.submenu>li:hover{
+    cursor: pointer
+}
+
+.ft_link>li>img{
+    height: 50px;
+}
+.ft_link>li>img:hover,.ft_app>li>img:hover{
+    cursor: pointer;
+}
+
+.ft_co_name>p{
+    color: #fff;
+}
+
+.ft_term>li{
+    color: #fff;
+}
+
+.ft_term>li:hover{
+    cursor: pointer;
+}
+
+/*------------Scroll to top end------------*/
+#myVideo {
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+    min-height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

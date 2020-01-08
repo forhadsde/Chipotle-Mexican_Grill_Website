@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul{
+    list-style: none;
+}
+
+
+.banner .banner_text{
+    color: #f6fcff;
+    margin-top: 200px;
+}
+.banner .banner_text h1{
+    color: #005cbf;
+    font-size: 60px;
+}
+.banner img{
+    position: absolute;
+
+}
+
+.food_show{
+    margin-top: 150px;
+    position: relative;
+}
+
+.food_show .overlay{
+    padding: 0;
+    margin-top: -60px;
+
+}
+.food_show .btn{
+    background-color: #856404;
+}
+.food_show .overlay h4{
+    color: #f6fcff;
+}
+.food_shows{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.food_shows .overlay {
+    padding: 0;
+    margin-top: -60px;
+
+}
+.food_shows .btn{
+    background-color: #856404;
+}
+
+
+
+.food_shows .overlay h4{
+    color: #f6fcff;
+}
+
+.banner2 .banner_image{
+    position: absolute;
+}
+.banner2 .textm{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.banner2 .btn{
+    background-color: #E6D1A1;
+    margin-left: 150px;
+    margin-top: -0px;
+}
+#footer {
+    font-size: 13px;
+    background-color: #54392d;
+    min-height: 400px;
+    color: #9d8d80;
+    padding: 40px 0;
+    box-sizing: border-box;
+    display: block;
+}
+#footer .nutrition-disclaimer{
+    text-align: center;
+}
+#footer .nutrition-disclaimer a{
+    text-decoration: underline;
+    color: #9d8d80;
+
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 11px;
+}
+
+#footer a:hover{
+    color: #fff;
+}
+#footer .links{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+#footer .links a {
+    width: 21%;
+    text-align: left;
+    color: #9d8d80;
+    display: inline-block;
+    padding: 10px 0 10px 1vw;
+}
+
+#footer .links a:hover{
+    color: #fff;
+}
+#footer .address {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 11px;
+    display: block;
+    box-sizing: border-box;
+
+}

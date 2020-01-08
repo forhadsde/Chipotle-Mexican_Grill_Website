@@ -1,0 +1,48 @@
+*{
+            margin: 0;padding: 0;position: relative;
+        }
+        div.ccontainer{
+            width: 600px;margin: auto;
+        }
+        .slider{
+            height: 300px;width: 600px;
+            overflow: hidden;
+        }
+        .details{
+            background: black;color: white;
+            z-index: 10;margin-top: -55px;
+            opacity: 0.5;
+        }
+        .play,.pause,.prev,.next{
+            background: black;color: white;
+            width: 25px;height: 25px;line-height: 25px;
+            text-align: center;border-radius: 25px;
+            position: absolute;z-index: 10;
+            cursor: pointer;
+        }
+        .play{
+            top:20px;right: 20px;
+            transform: rotate(90deg);
+        }
+        .pause{
+            top: 20px;right: 50px;
+            transform: rotate(90deg);
+        }
+        .prev{
+            top: 100px;left: 20px;
+        }
+        .next{
+            top: 100px;right: 20px;
+        }
+        .pager{
+            position: absolute;z-index: 10;
+            bottom: 100px;left: 250px;
+        }
+        .pager a{
+            color: transparent;
+            border: 1px solid black;font-size: 0;
+            margin: 5px;padding: 5px;border-radius: 10px;
+        }
+        .pager a.activeSlide{
+            background: yellow;
+        }

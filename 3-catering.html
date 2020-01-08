@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CHIPOTLE CATERING</title>
+	
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+          crossorigin="anonymous">
+    <link href="catering/css/style.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+
+<div class="container-fluid">
+    <div id="logo">
+        <div class="text-center">
+            <a href="/" class="router-link-exact-active router-link-active">
+                <img src="catering/img/logo.svg" alt="Chipotle Mexican Grill" class="catering-logo"> <span class="logo-text">Catering</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark bg-nav-color sticky-top justify-content-center" style="background-color: #54392D">
+    <ul class="navbar-nav">
+        <li>
+            <span class="local-pricing-text" style="">View local pricing & availability &nbsp;&nbsp;&nbsp;</span>
+        </li>
+        <li>
+            <div class="input-and-arrow">
+                <input id="zip-code" type="text" placeholder="ZIP" class="form-control form-control-sm">
+
+            </div>
+        </li>
+    </ul>
+</nav>
+
+<section id="placeholder" class="section" style="background-color: #F2F2F1">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="menu-build-own">
+                <div class="head">
+                    <h1 class="title">BUILD YOUR OWN</h1>
+                    <span class="disclaimer-text">Minimum 10 people</span>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="pricing-availability">
+                    *Pricing & availability vary by location.
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="details">
+                    <div class="image-and-description">
+                        <div class="details-slide">
+                            <div class="details-slide-item-container">
+                                <img src="catering/img/pic1.png" class="details-slide-item">
+                            </div>
+                        </div>
+                        <p id="buildYourOwn_SelectedDescription" class="selected-item-description">
+
+                        </p>
+                    </div>
+                    <div class="buildit-and-text">
+                        <button id="buildYourOwn_BuildIt" type="button" class="btn btn-lg btn-gold btn-block btn-secondary">BUILD YOUR
+                            <svg xmlns="http://www.w3.org/2000/svg" width="13" height="12" viewBox="0 0 13 12" class="arrow">
+                                <g fill="none" fill-rule="evenodd" stroke="#8B7868" stroke-linecap="round">
+                                    <path d="M1.058 5.806h10.934M7.2 11.068l4.793-5.261L7.168.576">
+                                    </path>
+                                </g>
+                            </svg>
+                        </button>
+                        <p class="unavailable-text" style="display: none;"> We’re sorry, this item isn’t available in the ZIP code you entered.</p>
+                        <p class="pricing-text">Please place your order at least 24 hours in advance, so we can coordinate making it along with all of the food we prepare fresh every day.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="about" class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <img src="catering/img/pic2.png" alt="Burritos in a Box">
+            </div>
+            <div class="col-md-7">
+<div class="container-fluid white-background">
+    <div>
+        <div class="placeholder">
+            <div class="menu-burritos-box">
+                <div class="head">
+                    <span class="vertical-align-helper"></span>
+
+                </div>
+
+                <div class="main-content">
+                    <h1 class="title">Burritos by the Box</h1>
+                    <div class="subtitle">Minimum 6 people</div>
+
+                    <div id="burritosByTheBox_DescriptionWeb" class="description"></div>
+                    <div class="cost-per-person">
+                        <div id="burritosByTheBox_CostPerPerson" class="cost">
+                            <span></span>/person<span>*</span>
+                        </div>
+                        <div class="name">Burritos by the Box</div>
+                    </div>
+                    <div id="burritosByTheBox_DescriptionMobile" class="description-inline"></div>
+                    <div class="build-it-and-disclaimer">
+                        <button id="burritosByTheBox_BuildIt" type="button" class="btn btn-lg btn-gold btn-block btn-secondary">START A BURRITO BOX
+    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="12" viewBox="0 0 13 12" class="arrow">
+        <g fill="none" fill-rule="evenodd" stroke="#8B7868" stroke-linecap="round">
+            <path d="M1.058 5.806h10.934M7.2 11.068l4.793-5.261L7.168.576"></path>
+        </g>
+    </svg>
+                        </button>
+                        <div id="burritosByTheBox_Disclaimer" class="disclaimer">
+    Please place your order at least 24 hours in advance, so we can coordinate making it along with all of the food we prepare fresh every day.
+                        </div>
+                    </div>
+                    <div class="build-it-and-disclaimer" style="display: none;">
+                        <p class="unavailable-text">We’re sorry, this item isn’t available in the ZIP code you entered.</p>
+                    </div>
+                    <div class="pricing-availability">
+    *Pricing &amp; availability vary by location.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="before last" class="section" style="background-color: #F2F2F1">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="main-content">
+                    <h1 class="chips-title">Chips & Salsa</h1>
+                    <div class="subtitle">Serves 10-15</div>
+                    <div id="chipsSalsa_DescriptionWeb" class="description"></div>
+                    <div class="cost-per-person">
+                        <div id="chipsSalsa_CostPerPerson" class="cost">
+                            <span>$<span>*</span></span>
+                        </div>
+                    </div>
+                    <div id="chipsSalsa_DescriptionMobile" class="description-inline"></div>
+                    <div>
+                        <div class="build-it-cell">
+                            <button id="chipsSalsa_BuildIt" type="button" class="btn btn-lg btn-gold btn-block btn-secondary">Get Chips & Salsa
+                                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="12" viewBox="0 0 13 12" class="arrow">
+                                    <g fill="none" fill-rule="evenodd" stroke="#8B7868" stroke-linecap="round">
+                                        <path d="M1.058 5.806h10.934M7.2 11.068l4.793-5.261L7.168.576"></path>
+                                    </g>
+                                </svg>
+                            </button>
+                            <p class="unavailable-text" style="display: none;">We’re sorry, this item isn’t available in the ZIP code you entered.</p>
+                        </div>
+                    </div>
+                    <div class="pricing-availability">*Pricing & availability vary by location.</div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="head">
+                    <span class="vertical-align-helper"></span>
+                    <img src="catering/img/pic3.png" alt="Chips & Salsa" class="image">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div>
+    <div class="placeholder">
+        <div class="content content-hero group-order">
+            <div class="main-content">
+                <h1 class="big-text">Need to feed<br>a team today?</h1>
+                <div class="small-text">Invite colleagues and clients to build a group order. Minimum 2 people.</div>
+                <a href="https://order.chipotle.com/group-order/create" target="_blank" class="action-link"> Switch to group order
+                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="12" viewBox="0 0 13 12" class="arrow">
+                        <g fill="none" fill-rule="evenodd" stroke="#8B7868" stroke-linecap="round">
+                            <path d="M1.058 5.806h10.934M7.2 11.068l4.793-5.261L7.168.576"></path>
+                        </g>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="footer">
+    <div class="container">
+        <div class="links">
+            <a id="chipotle-com" href="https://www.chipotle.com" target="_blank">Chipotle.com</a>
+            <a id="nutrition-calculator" href="https://www.chipotle.com/nutrition-calculator" target="_blank">Nutrition Calculator</a>
+            <a id="faq" href="https://www.chipotle.com/faq" target="_blank">FAQ</a>
+            <a id="privacy-policy" href="https://www.chipotle.com/privacy-policy" target="_blank">Privacy Policy</a>
+            <a id="gift-cards" href="https://www.chipotle.com/gift-cards" target="_blank">Gift Cards</a>
+            <a id="allergens" href="https://www.chipotle.com/allergens" target="_blank">Allergen Information</a>
+            <a id="email-us" href="https://www.chipotle.com/email-us" target="_blank">Email Us</a>
+            <a id="accessibility" href="https://www.chipotle.com/accessibility" target="_blank">Accessibility Statement</a>
+        </div>
+        <div class="nutrition-disclaimer">
+    Nutrition information is based on standard serving sizes - actual nutritional values may vary because
+    of order customizations, variations in portion size or recipes, changes in growing seasons, or differences
+    in the sources of our ingredients. We may update this information from time to time. 2,000 calories a day
+    is used for general nutrition advice, but calorie needs vary. Additional nutrition information available
+    <a href="https://www.chipotle.com/email-us" target="_blank" id="upon-request-link">upon request.</a>
+        </div>
+        <div class="address">
+            <span>© 2019 Chipotle Mexican Grill</span>
+            <span>610 Newport Center Drive, Suite 1300</span>
+            <span>Newport Beach, CA 92660</span>
+            <span>
+                <a href="https://www.chipotle.com" target="_blank" id="copyright-chipotle-com">www.chipotle.com</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="catering/js/main.js"></script>
+</body>
+</html>
